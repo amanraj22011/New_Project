@@ -1,0 +1,10 @@
+<h1>This is our Home Page</h1>
+<ul>
+    {% for lenovo in all_laptops %}
+    <li>
+        <a href=" /{{lenovo.id}}">
+            <h1>{{lenovo.name}}</h1>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
