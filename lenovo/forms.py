@@ -3,6 +3,6 @@ from .models import lenovothink
 
 
 class lenovo_laptop(forms.ModelForm):
-    class Meta:
+    class _meta:
         model = lenovothink
         fields = ['user', 'name', 'brand', 'harddrive','value','material']
